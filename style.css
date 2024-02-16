@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:ital,wght@1,200&display=swap');
+/* @media (width <= 510px){
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+
+
+.main{
+    background-image: url("assets/images/background_image.jpg");
+    height: 90vh;
+    /* width: 100vw; */
+    background-size: max(100vw,2000px);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.box{
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    
+}
+.nav{
+    /* position: absolute; */
+    /* border: 2px solid red; */
+    /* z-index: 1; */
+    /* width: 80%; */
+    width: 80vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin: auto;
+    justify-content: space-between;
+}
+.nav span img{
+    width: 155px;
+    z-index: 10;
+    position: relative;
+
+}
+.nav button{
+    position: relative;
+    z-index: 10;
+}
+.headcont{
+    /* background-color: white; */
+    /* border: 2px solid blue; */
+    color: white;
+    position: relative;
+    height: 80vh;
+    z-index: 10;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Jost', sans-serif;
+}
+.headcont h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+.headcont p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.23rem;
+}
+.top button{
+    background-color: black;
+    backface-visibility: visible;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(56, 56, 56, 0.141); 
+    backface-visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.484);
+    font-size: 1.1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 100px; 
+}
+.Red{
+    background-color: red;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 4px;
+    /* margin-top: 5px; */
+    border: 2px solid rgba(255, 0, 0, 0.399);
+}
+#Red{
+    margin-top: 2px; 
+    background-color: red;
+    cursor: pointer;
+    height: 30px;
+    width: 75px;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 4px;
+    /* margin-top: 5px; */
+    /* border: 2px solid rgba(255, 0, 0, 0.399); */
+    
+}
+.input input{
+    height: 46px;
+    width: 300px;  
+    background-color: rgba(56, 56, 56, 0.141); 
+    backface-visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.484);
+    font-size: 1.1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+.input{
+    /* border: 2px solid green; */
+    margin-top: 10px;
+}
+/* .top{
+    border : 2px solid blue; 
+} */
+
+.graybox{
+    width: 100vw;
+    height: 8px;
+    background-color: grey;
+}
+.blackcont{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+}
+.textcont{
+    color: white;
+    
+    /* border: 2px solid green; */
+}
+.smallcont{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imagecont{
+    /* border: 2px solid ghostwhite; */
+    /* display: block; */
+    height: 300px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagecont :nth-child(1){
+    position: absolute;
+    height: 260px;
+    /* opacity: .3; */
+    width: auto;
+    /* border: 2px solid rgb(4, 4, 175); */
+    /* margin: auto; */
+    padding: 20px;
+    
+    
+    
+}
+.imagecont :nth-child(2){
+    /* border: 2px solid rgb(253, 255, 248); */
+    /* position: absolute; */
+    /* margin: auto; */
+    height: 160px;
+    /* width: auto; */
+}
+.textcont{
+    padding: 10px;
+}
+.textcont p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.textcont h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+#another img{
+    height: 300px;
+    padding-top: 55px;
+}
+#another video{
+    height: 140px;
+    padding-bottom: 61px;
+    padding-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+.mainbox{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.smallfaqbox{
+    background-color: rgb(45,45,45);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    padding: 0px 20px;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 10px;
+}
+.smallfaqbox:hover{
+    background-color: rgb(75, 74, 74);
+    cursor: pointer;
+}
+#FAQ{
+    height: 130vh;
+}
+#FAQ h1{
+    margin: 20px;
+    text-align: center;
+}
+#FAQ p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+.lastfax{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 8px;
+}
+.input input{
+    padding-left: 10px;
+    /* margin-left: 10px; */
+    color: rgb(171, 171, 171);
+}
+.last{
+    color: white;
+    border: 2px solid red;
+    width: 100vw;
+    height: 100% ;
+}
+.last :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:510px) {
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headcont{
+        height: 65vh;
+    }
+    .top button span{
+        display: none;
+    }
+    .top :nth-child(1){
+        width: 30px;
+    }
+    .main{
+        height: 85vh;
+    }
+}
+@media only screen and (max-width :810px){
+    .smallcont{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
+    .blackcont{
+        height: 750px;
+    }
+}
