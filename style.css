@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Jost', sans-serif;
-    overflow-x: hidden;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:ital,wght@1,200&display=swap');
 /* @media (width <= 510px){
@@ -23,6 +22,8 @@
     background-size: max(100vw,2000px);
     background-repeat: no-repeat;
     background-position: center center;
+}
+body{
     overflow-x: hidden;
 }
 .box{
