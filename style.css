@@ -23,6 +23,7 @@
     background-size: max(100vw,2000px);
     background-repeat: no-repeat;
     background-position: center center;
+    overflow-x: hidden;
 }
 .box{
     height: 100%;
